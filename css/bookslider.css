@@ -1,0 +1,17 @@
+.litteraturnett-book-slider .slides .book-slide-entry .bookslider-image img{
+ max-height: 170px;
+ width: auto;
+}
+
+.litteraturnett-book-slider .bookslider .flex-nav-next a.flex-next{
+ min-height:80px
+}
+.litteraturnett-book-slider .bookslider .flex-nav-next a.flex-next::before {
+ content: '>';
+}
+.litteraturnett-book-slider .bookslider .flex-nav-prev a.flex-prev{
+ min-height:80px
+}
+.litteraturnett-book-slider .bookslider .flex-nav-prev a.flex-prev::before {
+ content: '<';
+}
