@@ -49,7 +49,7 @@ class WLBookshelfSlider {
         wp_enqueue_style('flexslider', plugins_url( 'css/flexslider.css', __FILE__ ), array(), filemtime( plugin_dir_path( __FILE__ ) . 'css/flexslider.css'));
         wp_enqueue_style('bookslider', plugins_url( 'css/bookslider.css', __FILE__ ), array('flexslider'), filemtime( plugin_dir_path( __FILE__ ) . 'css/bookslider.css'));
         wp_enqueue_script('flexslider', plugins_url('js/jquery.flexslider.js', __FILE__), array('jquery'), filemtime( plugin_dir_path( __FILE__ ) . 'js/jquery.flexslider.js'));
-        wp_register_script('AuthorBookSlider', plugins_url( 'js/wl-bookshelf-slider.js', __FILE__ ), array('flexslider'), filemtime( plugin_dir_path( __FILE__ ) . 'js/author-books.js'));
+        wp_register_script('AuthorBookSlider', plugins_url( 'js/wl-bookshelf-slider.js', __FILE__ ), array('flexslider'), filemtime( plugin_dir_path( __FILE__ ) . 'js/wl-bookshelf-slider.js'));
         wp_localize_script('AuthorBookSlider', 'AuthorBookSliderSettings',
                 array('slidertitle' => __('Books in bokhylla.no', 'litteraturnett'),
                     'previous' => __('Prev', 'litteraturnett'),

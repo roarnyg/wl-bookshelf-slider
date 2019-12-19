@@ -1,17 +1,20 @@
-.litteraturnett-book-slider .slides .book-slide-entry .bookslider-image img{
+.wl-bookshelf-slider .slides .book-slide-entry .bookslider-image img{
  max-height: 170px;
  width: auto;
 }
 
-.litteraturnett-book-slider .bookslider .flex-nav-next a.flex-next{
+.wl-bookshelf-slider .bookslider .flex-nav-next a.flex-next{
  min-height:80px
 }
-.litteraturnett-book-slider .bookslider .flex-nav-next a.flex-next::before {
+.wl-bookshelf-slider .bookslider .flex-nav-next a.flex-next::before {
  content: '>';
 }
-.litteraturnett-book-slider .bookslider .flex-nav-prev a.flex-prev{
+.wl-bookshelf-slider .bookslider .flex-nav-prev a.flex-prev{
  min-height:80px
 }
-.litteraturnett-book-slider .bookslider .flex-nav-prev a.flex-prev::before {
+.wl-bookshelf-slider .bookslider .flex-nav-prev a.flex-prev::before {
  content: '<';
+}
+.wl-bookshelf-slider .bookslider .flex-viewport {
+  margin-bottom: 2.5rem;
 }
